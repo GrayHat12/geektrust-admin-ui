@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Paginator from "./components/Paginator";
+import Search from "./components/SearchBar";
+import Table from "./components/Table";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Search placeholder="Search by name, email or role. Enter to search" />
+      <div style={{ height: 10 }} />
+      <Table />
+      <div style={{ height: 5 }} />
+      <Paginator />
+    </>
   );
 }
 

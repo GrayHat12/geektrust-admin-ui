@@ -1,0 +1,8 @@
+.container {
+    width: 100%;
+}
+.input {
+    width: -webkit-fill-available;
+    min-height: 30px;
+    padding: 1px 10px;
+}

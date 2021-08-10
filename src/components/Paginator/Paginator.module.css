@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+}
+.container button {
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    margin: auto 20px;
+    border: 1px solid #1890FF;
+    outline: none;
+    color: black;
+}
+.container button:disabled {
+    background-color: #9AA0A6;
+    border-color: #9AA0A6;
+    color: white;
+}
+.active {
+    background-color: #1890FF !important;
+    color: white !important;
+}

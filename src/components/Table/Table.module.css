@@ -1,0 +1,16 @@
+.container {
+    display: block;
+}
+.container table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.container td, .container th {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+.container td:nth-child(4) {
+    text-transform: capitalize;
+}

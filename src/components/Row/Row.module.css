@@ -1,0 +1,14 @@
+.tr button {
+    background: none;
+    margin: auto 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.tr input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
